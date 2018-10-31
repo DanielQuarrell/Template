@@ -1,21 +1,9 @@
+const path = require('path');
+
 module.exports = {
 	entry  : './src/main.js',
 	output : {
-		path     : __dirname,
-		filename : 'main.dist,js'
-	},
-	module : {
-		loaders: [ {
-				test : /.js$/,
-				loader : 'babel-loader',
-				exclude: /node_modules/,
-				query: {
-					presets: [
-						'es2015',
-						'stage-2'
-					]
-				}
-			}
-		]
+		filename : 'main.js',
+		path : path.resolve(__dirname, 'dist')
 	}
 };
