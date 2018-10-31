@@ -1,0 +1,9 @@
+[
+
+    {
+        "id": "main_menu_background",
+        "type": "image",
+        "dir": "images/",
+        "extension": ".jpg"
+    }    
+]

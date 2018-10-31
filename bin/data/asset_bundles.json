@@ -1,0 +1,8 @@
+[
+    {
+        "id": "core_assets",
+        "loadFor": ["MainMenuScene"],
+        "unloadFor": [],
+        "assets":["main_menu_background"]
+    }
+]
