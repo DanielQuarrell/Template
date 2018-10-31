@@ -2,7 +2,7 @@
   "name": "template",
   "version": "1.0.0",
   "description": "template",
-  "main": "main.js",
+  "private": true,
   "directories": {
     "lib": "lib"
   },
